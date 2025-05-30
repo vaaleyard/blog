@@ -1489,6 +1489,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"blog@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "blog@workspace:."
+  dependencies:
+    "@astrojs/rss": "npm:^4.0.11"
+    "@astrojs/starlight": "npm:^0.34.3"
+    "@types/markdown-it": "npm:^14"
+    "@types/sanitize-html": "npm:^2"
+    astro: "npm:^5.6.1"
+    markdown-it: "npm:^14.1.0"
+    sanitize-html: "npm:^2.17.0"
+    sharp: "npm:^0.32.5"
+    starlight-giscus: "npm:^0.6.1"
+    starlight-theme-rapide: "npm:^0.5.1"
+  languageName: unknown
+  linkType: soft
+
 "boolbase@npm:^1.0.0":
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
@@ -5121,23 +5138,6 @@ __metadata:
   checksum: 10c0/caddd5f544b2006e88fa6b0124d8d7b28208b83c72d7672d5ade44d794525d23b540f3396108c4eb9280dcb7c01f0bef50682f5b4b2c34291f7c5e211fd1417d
   languageName: node
   linkType: hard
-
-"starlight-blog@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "starlight-blog@workspace:."
-  dependencies:
-    "@astrojs/rss": "npm:^4.0.11"
-    "@astrojs/starlight": "npm:^0.34.3"
-    "@types/markdown-it": "npm:^14"
-    "@types/sanitize-html": "npm:^2"
-    astro: "npm:^5.6.1"
-    markdown-it: "npm:^14.1.0"
-    sanitize-html: "npm:^2.17.0"
-    sharp: "npm:^0.32.5"
-    starlight-giscus: "npm:^0.6.1"
-    starlight-theme-rapide: "npm:^0.5.1"
-  languageName: unknown
-  linkType: soft
 
 "starlight-giscus@npm:^0.6.1":
   version: 0.6.1
