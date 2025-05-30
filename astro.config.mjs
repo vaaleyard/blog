@@ -35,7 +35,7 @@ export default defineConfig({
           tag: "script",
           attrs: {
             defer: true,
-            src: "https://cloud.umami.is/script.js",
+            src: import.meta.env.UMAMI_URL,
             "data-website-id": import.meta.env.UMAMI_ID,
           },
         },
